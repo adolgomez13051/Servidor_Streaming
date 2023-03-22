@@ -1,0 +1,62 @@
+.Fondo_Titulo {
+    font-style: normal;
+    text-align: center;
+    background-color: #00008B;
+    font: optional;
+    color: white;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 3px;
+    padding: 4px;
+}
+
+.table1 {
+    border-spacing: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+}
+.button{
+    background-color: #00008B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px 400px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.centered {
+    position:relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .eye{
+    position:absolute;
+    height:200px;
+    width:200px;
+    top: 40px;
+    left : 40px;
+    z-index: 1;
+  }
+  
+  .heaven
+  {
+    position:absolute;
+    height:1000px;
+    width:1000px;
+    z-index: -1;
+  }
+
+html {
+    background-color: darkgray;
+}
